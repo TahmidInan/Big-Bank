@@ -1,5 +1,8 @@
+// first take the value of search input by adding event listener to search btn then fetch the url and get access json file .takethe data as an input for another function and get id of the div where you want to show your stuff .then create a div element . then go back to the id of div and use append child.
+
+
+
 const allPlayer=()=>{
-    
    const searchValue = document.getElementById("search-box").value ;
    document.getElementById("search-box").value = '';
    document.getElementById('player-container').innerHTML='';
